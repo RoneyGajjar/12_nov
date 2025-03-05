@@ -1,0 +1,134 @@
+14/08/2024
+
+types of programing language
+c,
+object oriented programming
+ C++
+logical programing
+ prolog language
+functional programing
+ python language
+HTTP
+ hyper text transfer protocol
+FTP
+ File transfer protocol
+POP3,SMTP
+ Email Protocol
+TCP
+ Transmission control protocol
+UDP
+ User Datagram protocol
+--------------------------------------------------------------------------------------------------------------
+
+16/08/2024
+
+System software
+---> OS, Device Driver
+Application Software
+---> Microsoft Suit, Antivirus, Games
+Utility Software
+1. CAM --> Computer Aided Manufacturing
+2. CAD --> Computer Aided Designing
+
+Low Level Language
+Intermediate level language
+1. Platform Dependent Language ---> C, C++
+2. Platform Independent Language ---> Java, Python
+
+Translators
+1. Compiler ---> C, C++
+2. Interpreter ---> Java
+
+IDE ---> Integrated Development Environment
+Text Editor ---> 
+
+Extension
+C ---> .c
+C++ ---> .cpp
+Java ---> .java
+Python ---> .py
+HTML ---> .html
+CSS ---> .css
+JavaScript ---> .js
+
+Types of layers in software
+1. Presentation Layer
+2. Application Layer
+3. Business Layer
+4. Persistence Layer
+5. Database layer
+
+SDLC ---> Software Development Life Cycle
+1. Analysis
+2. Planning
+3. Designing
+4. Development / Implementation
+5. Deploy / Testing
+6. Maintain
+--------------------------------------------------------------------------------------------------------------
+
+21/08/2024
+
+
+1. DFD ---> Data Flow Diagram
+2. Flow Chart
+3. Use Case Diagram
+-----------------------------------------------
+DFD.
+---------------     ---------------
+User           ---> Registration
+---------------     ---------------
+Product Search ---> Product Confirm
+---------------     ---------------
+Payment Process---> Payment Method
+-----------------------------------------------
+
+Use Case.
+
+---------------     --------------------
+User           ---> Login / Registration
+---------------     --------------------
+                    --------------------
+                    Payment Type
+                    --------------------
+                    --------------------
+                    Bill Detail
+                    --------------------
+                    --------------------
+                    Payment Method
+                    --------------------
+                    --------------------
+                    Payment Gateway
+                    --------------------
+                    --------------------
+                    Payment Process
+                    --------------------
+                    --------------------
+                    Payment Confirmation
+                    --------------------
+
+--------------------------------------------------------------------------------------------------------------
+
+23/08/2024
+
+Datatypes
+1. Primitive datatype/Primary Datatype
+ 1. int ---> 4,5,-8 ---> Limit of int ( 32,767 , -32,768 )
+ 2. long int ---> 50,000
+ 3. float ---> Fractional Value 98.2 , 85.456789 
+ 4. double ---> 87.8574963
+ 5. char ---> Only single character can be stored (@,#,A,7)
+2. Non-Primitive datatype
+ 1. Derived Datatype
+   (AFP) ---> Array,Function,Pointer
+ 2. User Define datatype
+   Structure and Union
+
+// ---> Single line comment
+/* ---> Multi line Comment
+*/ ---> Multi line Comment
+
+                    
+
+
+
