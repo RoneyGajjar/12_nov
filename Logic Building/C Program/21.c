@@ -19,6 +19,7 @@ struct bank
 int total,choice,i;
 int main()
 {
+    up:
     printf("\n1.Add Account");
     printf("\n2.Display all Account");
     printf("\n3.Display particular Account");
@@ -34,10 +35,10 @@ int main()
             add();
         break;
         case 2:
-            diaplayall();
+            displayall();
         break;
         case 3:
-            diaplayparticular();
+            displayparticular();
         break;
         case 4:
             deposit();
@@ -50,6 +51,18 @@ int main()
         break;
 
     }
+    char ch;
+    printf("\nPress 'y' to continue and 'n' to exit = ");
+    scanf(" %c",&ch);
+    if(ch=='y'||ch=='Y')
+    {
+        goto up;
+    }
+    else
+    {
+        goto end;
+    }
+    end:
     return 0;
 }
 
