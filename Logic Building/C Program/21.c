@@ -79,7 +79,7 @@ void add()
         scanf("%s",b[i].name);
         printf("\nEnter Account No. = ");
         scanf("%d",&b[i].acno);
-        printf("\nEnter balance");
+        printf("\nEnter balance =");
         scanf("%lf",&b[i].balance);
         total++;
     }
