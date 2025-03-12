@@ -6,6 +6,11 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+marquee
+{
+    margin-top: 1rem;
+    color: #d0ad6c;
+}
 header
 {
     position: fixed;
@@ -14,7 +19,8 @@ header
 }
 nav
 {
-    margin-left: 20%;
+    margin-top: -2rem;
+    margin-left: 16%;
 }
 nav div
 {
@@ -28,6 +34,7 @@ nav select
 }
 header img
 {
+    margin-top: -1rem;
     margin-left: 35%;
 }
 header a
@@ -72,7 +79,7 @@ header nav
 .dropdown-content a 
 {
     color: #d0ad6c;
-    padding: 10px 15px;
+    padding: 10px 10px;
     text-decoration: none;
     display: block;
 }
