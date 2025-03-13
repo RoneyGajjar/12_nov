@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    /* background-color: #f9f6e6; */
 }
 marquee
 {
@@ -17,6 +18,7 @@ marquee
 header
 {
     position: fixed;
+    z-index: 1;
     width: 100%;
     background-color: #0c1813;
 }
@@ -98,6 +100,12 @@ header nav
 {
     background-color: #0c1813;
 }
+.dropdown:hover .arrow
+{
+    opacity: 0;
+    transition: 0.3s ease;
+    transform: scale(1.1);
+}
 section img
 {
     margin-top: 9rem;
@@ -111,15 +119,26 @@ section h1
 }
 .cards
 {
-    margin-top: -3rem;
+    
+    margin: 3rem 5rem 5rem 5rem;
     display: flex;
     /* border: 2px solid black; */
 }
 .sub-cards
 {
-    /* border: 2px solid black; */
+    margin-top: 9rem;
+    border: 3px solid black;
+    border-radius: 10px;
     text-align: center;
     margin: 0px 1rem;
+    padding: 5px;
+}
+.sub-cards:hover
+{
+    transform: scale(1.1);
+    transition: 1s ease;
+    border: 3px solid #d0ad6c;
+    box-shadow: 0px 0px 20px #d0ad6c;
 }
 .sub-cards h1
 {
@@ -128,8 +147,8 @@ section h1
 .sub-cards button
 {
     background-color: green;
-    margin-top: 25px;
-    font-size: 30px;
+    margin-top: 1rem;
+    font-size: 20px;
     margin-bottom: 25px;
     /* border: 2px solid black; */
     padding: 10px;
@@ -141,5 +160,45 @@ section h1
 }
 .sub-cards img 
 {
+    margin-top: 0rem;
     height: 200px;
+}
+.categories
+{
+    
+    margin: 3rem 2rem 5rem 2rem;
+    display: flex;
+    /* border: 2px solid black; */
+}
+.sub-cate
+{
+    /* border: 3px solid black; */
+    margin: 0rem 1rem 0rem 0.5rem;
+    text-align: center;
+    color: #d0ad6c;
+}
+.sub-cate img
+{
+    height: 250px;
+    width: 220px;
+    margin: 0rem 
+}
+.lastimg
+{
+    margin-top: 1rem;
+    margin-left: 2.5%;
+    height: 550px;
+    width: 95%;
+}
+.videos
+{
+    margin:3rem 0rem 0rem 2rem;
+}
+section p
+{
+    margin-top: 2rem;
+    font-size: 30px;
+    font-weight: 700;
+    color: #d0ad6c;
+    text-align: center;
 }
