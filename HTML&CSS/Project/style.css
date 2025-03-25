@@ -251,3 +251,9 @@ footer h3
     color: white;
     text-align: center;
 }
+.last i
+{
+    color: white;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
