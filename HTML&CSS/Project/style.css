@@ -206,6 +206,7 @@ footer
 {
     margin: 0rem;
     background-color: #0c1813;
+    margin-bottom: -2rem;
 }
 .last
 {
@@ -323,4 +324,5 @@ footer h3
 .houseofdenverfoot
 {
     margin-top: 15rem;
+    margin-bottom: -2rem;
 }
