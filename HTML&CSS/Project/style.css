@@ -257,3 +257,70 @@ footer h3
     margin-top: 1rem;
     margin-left: 1rem;
 }
+
+/* House Of Denver */
+
+.cards2
+{
+    margin: 3rem 5rem 5rem 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0.5rem;
+    /* border: 2px solid black; */
+}
+.sub-cards2
+{
+    /* margin-top: 9rem; */
+    border: 3px solid black;
+    /* border-radius: 10px; */
+    text-align: center;
+    /* margin: 0px 1rem; */
+    padding: 5px;
+    height: 500px;
+    width: 300px;
+    background-color: rgb(238, 223, 205);
+}
+.sub-cards2:hover
+{
+    /* transform: scale(1.1); */
+    /* transition: 1s ease; */
+    border: 3px solid #d0ad6c;
+    box-shadow: 0px 0px 20px #d0ad6c;
+}
+.sub-cards2 h1
+{
+    margin-top: 7rem;
+}
+.sub-cards2 button
+{
+    background-color: green;
+    margin-top: 1rem;
+    font-size: 20px;
+    margin-bottom: 25px;
+    /* border: 2px solid black; */
+    padding: 10px;
+    border-color: white;
+}
+.sub-cards2 button:hover
+{
+    color: #d0ad6c;
+}
+.sub-cards2 img 
+{
+    margin-top: 0rem;
+    height: 250px;
+    width: 286px;
+}
+.houseofdenverhead
+{
+    margin-top: -3rem;
+}
+.cards2
+{
+    position: relative;
+    top: 10rem;
+}
+.houseofdenverfoot
+{
+    margin-top: 15rem;
+}
