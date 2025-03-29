@@ -197,6 +197,26 @@ section h1
     border-radius: 10px;
     /* border: 30px solid; */
 }
+.i1:hover
+{
+    content: url('./images/index/1.webp');
+}
+.i2:hover
+{
+    content: url('./images/index/2.1.avif');
+}
+.i3:hover
+{
+    content: url('./images/index/3.1.webp');
+}
+.i4:hover
+{
+    content: url('./images/index/4.1.webp');
+}
+.i5:hover
+{
+    content: url('./images/index/5.1.webp');
+}
 .categories
 {
     
@@ -368,6 +388,11 @@ footer h3
 section .homelogo a
 {
     text-decoration: none;
+}
+.title1
+{
+    margin-top: 9rem;
+    margin-left: 9rem;
 }
 section p
 {
