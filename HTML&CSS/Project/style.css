@@ -314,7 +314,7 @@ footer h3
     margin-left: 1rem;
 }
 
-/* House Of Denver */
+/* ------------------------------House Of Denver-------------------------------------- */
 
 .cards2
 {
@@ -683,4 +683,39 @@ section p
 .mediafoot
 {
     margin-top: 15rem;
+}
+
+/* ---------------track your order---------------------- */
+
+.heading
+{
+    margin-left: 34%;
+    background-color: white;
+}
+.mainorder
+{
+    display: flex;
+    border: 2px solid red;
+    height: 50px;
+    justify-content: space-between;
+    margin: 0rem 30rem 0rem 30rem ;
+
+}
+.status
+{
+    border: 2px solid red;
+    background-color: #f9f6e6;
+    height: 50px;
+}
+.details
+{
+    border: 2px solid red;
+    background-color: #f9f6e6;
+    height: 50px;
+}
+.rating
+{
+    border: 2px solid red;
+    height: 50px;
+    background-color: #f9f6e6;
 }
